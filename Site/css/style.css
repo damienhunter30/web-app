@@ -15,7 +15,7 @@
 
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0.1, 0.4);
     margin: 0.25em;
-    padding: 0.75em;
+    padding: 0.5em;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     text-align: center;
@@ -85,4 +85,27 @@ footer{
     font-size: small;
     text-align: center;
     font-weight: bolder;
+}
+
+.inputform{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    border: 0px none;
+    margin: 0.5em;
+    width: 300px;
+    height: 25px;
+    align-items: center;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0.1, 0.4);
+}
+
+.loginbutton{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    border: 0px none;
+    margin: 0.5em;
+    width: 200px;
+    align-items: center;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0.1, 0.4);
 }
